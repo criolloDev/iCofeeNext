@@ -344,6 +344,11 @@ section {
 .contacto{
   margin-top: 8rem;
 }
+@media (max-width: 900px) {
+  .contacto {
+    min-height: 100vh;
+  }
+}
 
 .contacto .row{
   margin-top: -2rem;
