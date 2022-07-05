@@ -357,6 +357,11 @@ section {
   flex-wrap: wrap;
   gap:2rem;
 }
+@media (max-width: 900px) {
+  .contacto .row {
+    margin-top: 4rem;
+  }
+}
 
 .contacto .row .image{
   margin-top: -2rem;
